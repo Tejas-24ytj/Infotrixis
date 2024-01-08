@@ -112,5 +112,5 @@ STEP 35: Set as Homepage.
 If you want your welcome page to be your website's homepage, you can set it as such. To do this, go to "Settings" > "Reading" and choose "A static page" under "Front page displays." Select the welcome page you created from the drop-down menu.
 
 Conclusion: successfully performed my 1st task for monolith. In that 1 EC2 instance created, deployed WordPress and MYSQL on the same instance and created welcome page as “Welcome to My WordPress Website” as homepage.
-About
+
 
