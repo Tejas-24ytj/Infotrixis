@@ -26,9 +26,11 @@ Step 9: Installed php runtime and php mysql connector.
 sudo apt install php libapache2-mod-php php-mysql
 
 Step 10: Intalled MySql Server.
+
 sudo apt install mysql-server
 
 Step 11: Login to MySql Server
+
 sudo mysql -u root
 
 Step 12: Change authentication plugin to mysql_native_password (Choose strong Password)
@@ -77,27 +79,35 @@ Step 25: go to next step and fill all details – database name, username & pass
 5. Table Prefix : wp_
 >Click on submit button
 Step 26: wp-config.php error occur to fix it copy the code given in wp-config.php.
+>
 Step 27: on the terminal, inside wordpress folder-> create nano wp-config.php file and paste above copied code.
 cd wordpress nano wp-config.php
 
 Step 28: Click on Run the installation button.
 Go back to the browser and RUN the INSTALLTION 👍
+
 Step 29: Fill all the details to host/deploy your webpage.
 Here the error is resolved!
 Need to configure the information
+
 Step 30: Now install wordpress and Login with username & password.
 Click on Install WordPress:
 WordPress is installed successfully -
 login the WordPress with username and password that you have already created!
+
 Step 31: See your first webpage is open successfully on the wordpress.
 Welcome to My WordPress Website
+
 STEP 32: Log into WordPress Admin.
 Access your WordPress dashboard by going to your website's URL followed by "/wp-admin" (e.g., IPV4/wp-admin). Log in using your credentials.
+
 STEP 33: Create a New Page.
 In the WordPress dashboard, go to "Pages" and click on "Add New" to create a new page.
-Add a Title: Enter a title for your welcome page. For example, you can use "Welcome to Our Website."
+Add a Title: Enter a title for your welcome page. For example, you can use "Infotrixis"
+
 STEP 34: Publish the Page.
 Click the "Publish" button on the right side of the page editor to make your welcome page live. If you're not ready to publish it immediately, you can click "Save Draft" to come back to it later.
+
 STEP 35: Set as Homepage.
 If you want your welcome page to be your website's homepage, you can set it as such. To do this, go to "Settings" > "Reading" and choose "A static page" under "Front page displays." Select the welcome page you created from the drop-down menu.
 
