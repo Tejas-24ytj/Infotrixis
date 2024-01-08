@@ -32,16 +32,16 @@ Step 11: Login to MySql Server
 sudo mysql -u root
 
 Step 12: Change authentication plugin to mysql_native_password (Choose strong Password)
-ALTER USER 'root'@localhost IDENTIFIED WITH mysql_native_password BY 'jyoti123';
+ALTER USER 'root'@localhost IDENTIFIED WITH mysql_native_password BY 'Tejas@123';
 
 Step 13: Create new database user for wordpress
-CREATE USER 'jyoti'@localhost IDENTIFIED BY 'jyoti123';
+CREATE USER 'Tejas'@localhost IDENTIFIED BY 'Tejas@123';
 
 Step 14: Create a database for wordpress
 create database wordpress;
 
 Step 15: Grant all Privileges on the database ‘wordpress’ to the newly created user.
-GRANT ALL ON *.* TO 'jyoti'@localhost;
+GRANT ALL ON *.* TO 'Tejas'@localhost;
 
 Step 16: For download wordpress ->go to the wordpress.org website on Google, copy the download link.
 `https://wordpress.org/latest.tar.gz'
@@ -71,7 +71,7 @@ http://<public-ip-of-ec2>/wordpress
 
 Step 25: go to next step and fill all details – database name, username & password.
 1. Database Name : wordpress
-2. Username : jyoti
+2. Username : Tejas
 3. Password : 'YourPassword'
 4. Database Host : localhost
 5. Table Prefix : wp_
